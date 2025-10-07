@@ -1,0 +1,94 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [85.0, 24.8]
+      },
+      "properties": {
+        "name": "Rampur",
+        "district": "Gaya",
+        "state": "Bihar",
+        "pincode": "823001",
+        "totalPopulation": 2500,
+        "scPopulation": 1500,
+        "scPercentage": 60,
+        "adarshGramStatus": "not-started"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.2, 25.3]
+      },
+      "properties": {
+        "name": "Banshi",
+        "district": "Banda",
+        "state": "Uttar Pradesh",
+        "pincode": "210001",
+        "totalPopulation": 3200,
+        "scPopulation": 2240,
+        "scPercentage": 70,
+        "adarshGramStatus": "in-progress"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.8, 24.4]
+      },
+      "properties": {
+        "name": "Dhoba",
+        "district": "Satna",
+        "state": "Madhya Pradesh",
+        "pincode": "485001",
+        "totalPopulation": 1800,
+        "scPopulation": 1080,
+        "scPercentage": 60,
+        "adarshGramStatus": "not-started"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [76.3529, 21.8247]
+      },
+      "properties": {
+        "name": "Khandwa",
+        "district": "East Nimar",
+        "state": "Madhya Pradesh",
+        "pincode": "450001",
+        "totalPopulation": 3200,
+        "scPopulation": 2240,
+        "scPercentage": 70,
+        "adarshGramStatus": "declared"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [81.5232, 16.5408]
+      },
+      "properties": {
+        "name": "Bhimavaram",
+        "district": "West Godavari",
+        "state": "Andhra Pradesh",
+        "pincode": "534201",
+        "totalPopulation": 1800,
+        "scPopulation": 1080,
+        "scPercentage": 60,
+        "adarshGramStatus": "not-started"
+      }
+    }
+  ]
+}
+
+
+
+

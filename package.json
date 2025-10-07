@@ -1,0 +1,31 @@
+{
+  "name": "adarsh-gram-gap-finder",
+  "version": "1.0.0",
+  "description": "Full-stack web app to identify infrastructure gaps in SC-majority villages for Adarsh Gram declaration",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "startup": "node start.js",
+    "seed": "cd server && node seeders/seedVillages.js"
+  },
+  "keywords": [
+    "adarsh-gram",
+    "village-gaps",
+    "infrastructure",
+    "sc-villages"
+  ],
+  "author": "AdarshGramGapFinder Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "lucide-react": "^0.544.0",
+    "mongodb": "^6.20.0"
+  }
+}
